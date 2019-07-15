@@ -1,0 +1,36 @@
+<div class="card">
+  <div class="card-body mt-4">
+    <h6 class="text-center text-secondary"> Lista de clientes Registrados </h6>
+    <table class="table table-sm table-hover mt-4">
+      <tbody>
+        <tr *ngFor="let product of productList">
+            <td> {{ product.name }} </td>
+            <td> {{ product.lastname }} </td>
+            <td> {{ product.age }} </td>
+            <td> {{ product.birth }} </td>
+            <td> 
+              <a class="btn btn-secondary text-white" (click)="onEdit(product)">
+                <i class="far fa-edit small"> </i>  
+              </a>
+            
+              <a class="btn btn-danger text-white ml-1" (click)="onDelete(product.$key)">
+                  <i class="fas fa-trash-alt"> </i>  
+                </a>
+            </td>
+        </tr>
+        <tr> 
+            <td>                  </td>
+            <td> Cant. de clientes </td>
+            <td> {{ productList.length }} </td>
+            <td> {{ total }} </td>
+        </tr>
+        <tr> 
+            <td>                    </td>
+            <td> Desviación estandar </td>
+            <td> 0 </td>
+          </tr>
+      </tbody>
+
+    </table>
+  </div>
+</div>
