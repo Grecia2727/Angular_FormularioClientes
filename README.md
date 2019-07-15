@@ -1,6 +1,24 @@
-# RetoAngularFirebase
+# Angular_FormularioClientes
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
+
+## Instrucciones
+
+Para abrir descargar archivo y ejecutarlo. Podrás:
+1. Insertar datos de clientes.
+2. Ver el reporte de clientes registrados.
+3. Eliminar o Editar los datos de los clientes.
+4. Limpiar campos
+5. Conocer el total de clientes registrados.
+
+## Diseño Web.
+
+![Diseño web](https://github.com/Grecia2727/Angular_FormularioClientes/blob/master/src/assets/img/modelo_Web.JPG)
+
+
+## Diseño Mobile.
+
+![Diseño mobile](https://github.com/Grecia2727/Angular_FormularioClientes/blob/master/src/assets/img/modelo_mobile.JPG)
 
 ## Development server
 
